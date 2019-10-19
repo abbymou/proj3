@@ -1,0 +1,102 @@
+[
+  {
+    "State": "Wyoming",
+    "All Ages": 21,
+    "Age 0-20": "",
+    "Age 21-34": 37.5,
+    "Age 35-54": 21,
+    "Age 55+": 19.7,
+    "Male": 27.7,
+    "Female": 14.3
+  },
+  {
+    "State": "Mississippi",
+    "All Ages": 16.4,
+    "Age 0-20": 9.2,
+    "Age 21-34": 25,
+    "Age 35-54": 17.3,
+    "Age 55+": 16.7,
+    "Male": 22.7,
+    "Female": 10.6
+  },
+  {
+    "State": "Montana",
+    "All Ages": 14.8,
+    "Age 0-20": 10.2,
+    "Age 21-34": 23.7,
+    "Age 35-54": 16.6,
+    "Age 55+": 11.2,
+    "Male": 19.1,
+    "Female": 10.3
+  },
+  {
+    "State": "North Dakota",
+    "All Ages": 14.6,
+    "Age 0-20": "",
+    "Age 21-34": 22.3,
+    "Age 35-54": 17.4,
+    "Age 55+": 12.2,
+    "Male": 21.8,
+    "Female": 6.8
+  },
+  {
+    "State": "Oklahoma",
+    "All Ages": 14.2,
+    "Age 0-20": 7.9,
+    "Age 21-34": 16.1,
+    "Age 35-54": 15.7,
+    "Age 55+": 17.6,
+    "Male": 18.9,
+    "Female": 9.7
+  },
+  {
+    "State": "Alabama",
+    "All Ages": 13,
+    "Age 0-20": 6.9,
+    "Age 21-34": 17.8,
+    "Age 35-54": 14.2,
+    "Age 55+": 14.6,
+    "Male": 17.2,
+    "Female": "9."
+  },
+  {
+    "State": "South Dakota",
+    "All Ages": 12.5,
+    "Age 0-20": "",
+    "Age 21-34": 16.1,
+    "Age 35-54": 10.3,
+    "Age 55+": 16.9,
+    "Male": 17.1,
+    "Female": 7.7
+  },
+  {
+    "State": "Arkansas",
+    "All Ages": 12,
+    "Age 0-20": 6.2,
+    "Age 21-34": 15.1,
+    "Age 35-54": 13.6,
+    "Age 55+": 14,
+    "Male": 16,
+    "Female": 8.1
+  },
+  {
+    "State": "South Carolina",
+    "All Ages": 12,
+    "Age 0-20": 7.6,
+    "Age 21-34": 20.9,
+    "Age 35-54": 10.2,
+    "Age 55+": 11.7,
+    "Male": 16,
+    "Female": 8.1
+  },
+  {
+    "State": "New Mexico",
+    "All Ages": 11.9,
+    "Age 0-20": 7,
+    "Age 21-34": 21.6,
+    "Age 35-54": 13.2,
+    "Age 55+": 8.5,
+    "Male": 15.6,
+    "Female": 8.2
+  }
+]
