@@ -13,7 +13,7 @@ function loadData(dataURL){
   //ajax request
   $.ajax({
     method: "GET",
-    url: "../json/motor.json",
+    url: urlList,
     dataType: "json",
     success: parseData
   });
