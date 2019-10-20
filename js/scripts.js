@@ -77,10 +77,10 @@ function createCharts() {
           Female: female,
           Male: male
         },
-          type: 'bar',
-          groups: [
+          type: 'bar'
+          /*groups: [
             ['Female', 'Male']
-          ]
+          ]*/
   },
   axis: {
         x: {
@@ -89,9 +89,12 @@ function createCharts() {
     },
 
   grid: {
-        y: {
-            lines: [{value:7}]
-        }
+    y: {
+        lines: [
+            {value: 4.5, text: 'Female National Average', position: 'middle'},
+            {value: 9.2, text: 'Male National Average', position: 'middle'}
+        ]
+    }
     },
 
     color: {

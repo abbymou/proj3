@@ -15,7 +15,7 @@
     <!-- Bootstrap core CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
-    <link href="css/c3.min.css" rel="stylesheet">
+    <link href="css/c3.css" rel="stylesheet">
 
     <!-- Custom styles for this template -->
     <link href="https://fonts.googleapis.com/css?family=Playfair+Display:700,900" rel="stylesheet">
@@ -59,38 +59,49 @@
       <div class="blog-post">
 
         <p style="padding-top: 20px;">
-          The U.S. Department of Health and Human Services conducted a research study to determine the rate of deaths by age and gender, per 100,000 population,
+          The U.S. Department of Health and Human Services studied traffic-related deaths to determine the rate of deaths by age and gender, per 100,000 population,
           for motor vehicle occupants killed in crashes in 2014.
           The data represents all 50 of the United States by categorizing occupants to male or female and in age brackets of 0-20, 21-34, 35-54, and 55+.
-          Data was suppressed for a fatality rate of less than 20 deaths per 100,000 population.
+          Data was suppressed for a fatality rate of less than 20 deaths per population.
         </p>
-        <br>
-        <h3>All Ages in All States</h3>
+
+        <h3 class="break">All Ages in All States</h3>
         <p>
           The following map represents the rate of motor vehicle deaths for all ages in every state in 2014. The death rates have been categorized into five
-          segments to display the variation in death rates across the country.
-          Wyoming had the greatest death rate of 21 per 100,000 population while Rhode Island has the smallest rate of 2.3.
+          age segments to display the variation in death rates across the country.
+          Wyoming had the greatest death rate of 21 while Rhode Island has the smallest rate of 2.3.
           In comparison, the national death rate for all ages in the United States was 6.8.
         </p>
         <div id="map">Map goes here.
         </div>
-        <hr>
 
-        <h3>Death Rates by Gender</h3>
-        <p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
-
+        <h3 class="break">Death Rates by Gender</h3>
+        <p>
+          Of the 10 states with the highest death rate for all ages, the male to female death rate ratio is nearly double for males in each case.
+          However, the male to female ratio in each respective state coincides with the national trend of nearly 1:1.
+          The graph below represents the difference in motor vehicle death rates for men and women by state while also displaying the national average.
+        </p>
         <div id="stacked-bar">Stacked colomn goes here.</div>
-        <hr>
 
-        <h3>Sub-heading</h3>
-        <p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aenean lacinia bibendum nulla sed consectetur. Etiam porta sem malesuada magna mollis euismod. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
+        <div class="row break">
+        <div class="col-md-6">
+          <h3>Wyoming</h3>
+          <p>
+            Wyoming has the highest motor vehicle death rate, 21, for all ages in the country.
+            Wyoming, additionally, has loose helmet laws.
+            The law requires only riders under the age of 18 to wear a helmet.
+            The graph below displays the motor vehicle death rate by age category.
+            For ages 0-20, there was less than 20 deaths per population, therefore, the data was suppressed.
+          </p>
+        </div>
+        <div class="col-md-6">
+          <div id="pie">Pie goes here.</div>
+        </div>
+      </div>
 
-        <div id="pie">Pie goes here.</div>
-        <hr>
-
-        <!-- <h3>Sub-heading</h3>
-        <p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aenean lacinia bibendum nulla sed consectetur. Etiam porta sem malesuada magna mollis euismod. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
-        <table id="table" class="display" style="width:100%">
+        <h3 class="break">Data</h3>
+        <p>All data for the year 2014 pertaining to motor vehicle death rates by age and gender in the United States.</p>
+        <!-- <table id="table" class="display" style="width:100%">
         <thead>
             <tr>
                 <th>State</th>
