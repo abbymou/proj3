@@ -7,32 +7,41 @@ var older = [];
 var female = [];
 var male = [];
 
+var state2 = [];
+var female2 = [];
+var male2 = [];
+
 $(document).ready(function(){
   console.log("doc ready")
-    loadData();
+    loadData1();
+
     $('#table').DataTable({
-      "ajax": '../json/motor.txt'
+      "ajax": 'json/motor.txt'
     });
 
 
 })
 
-function loadData(){
+function loadData1(){
   console.log("loadData()")
   //ajax request
   $.ajax({
     method: "GET",
-    url: "../json/motor.json",
+    url: "json/motor.json",
     dataType: "json",
     success: parseData
   });
+
+  //onSuccess parseData(data);
+}
+
+function loadData2(){
   $.ajax({
     method: "GET",
-    url: "../json/top.json",
+    url: "json/top.json",
     dataType: "json",
-    success: parseData
+    success: parseData2
   });
-  //onSuccess parseData(data);
 }
 
 function parseData(data){
@@ -58,13 +67,19 @@ function parseData(data){
     //parse chart data
     buildCharts();
   }*/
-  createCharts();
-  createTable();
+  loadData2();
+
 }
 
-function createTable () {
+function parseData2(data){
+  for (var j = 0, len = data.length; j < len; ++j) {
+    state2.push(data[j]["State"]);
+    female2.push(data[j]["Female"]);
+    male2.push(data[j]["Male"]);
+  }
 
-};
+  createCharts();
+}
 
 function createCharts() {
 
@@ -73,14 +88,11 @@ function createCharts() {
     data: {
         x: 'x',
         json: {
-          'x': state,
-          Female: female,
-          Male: male
+          'x': state2,
+          Female: female2,
+          Male: male2
         },
           type: 'bar'
-          /*groups: [
-            ['Female', 'Male']
-          ]*/
   },
   axis: {
         x: {
@@ -154,7 +166,7 @@ function createCharts() {
             name: '5 - 9.9'
         }, {
             from: 10,
-            to: 14.4,
+            to: 14.9,
             color: '#ffa051',
             name: '10 - 14.9'
         }, {
@@ -547,6 +559,20 @@ function createCharts() {
             y: 3,
             value: 21
         }]
-    }]
+    }],
+    responsive: {
+        rules: [{
+            condition: {
+                maxWidth: 500
+            },
+            chartOptions: {
+                legend: {
+                    align: 'center',
+                    verticalAlign: 'bottom',
+                    layout: 'horizontal'
+                }
+            }
+        }]
+    }
 });
 }

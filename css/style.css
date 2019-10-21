@@ -198,16 +198,25 @@ hr {
  * Footer
  */
 .blog-footer {
-  padding: 2.5rem 0;
-  color: #999;
+  padding: 1.5rem 0;
+  color: #fff;
   text-align: center;
-  background-color: #f9f9f9;
+  background-color: #000;
   border-top: .05rem solid #e5e5e5;
 }
 .blog-footer p:last-child {
   margin-bottom: 0;
 }
 
+a.footer-link {
+  text-decoration: none;
+  color: #fff;
+}
+
+a.footer-link:hover {
+  text-decoration: underline;
+  color: #fff;
+}
   /*
   * Media Adjust
   */
@@ -233,4 +242,5 @@ hr {
   .subscribe-align {
     padding-left: 10px;
   }
+  
 }
