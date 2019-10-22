@@ -1,24 +1,15 @@
-.bd-placeholder-img {
-  font-size: 1.125rem;
-  text-anchor: middle;
-  -webkit-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
-}
-
 @media (min-width: 768px) {
   .bd-placeholder-img-lg {
     font-size: 3.5rem;
   }
 }
-
+/* FONTS */
 @font-face {
   font-family: newYorker;
   src: url(../type/NEWYORKR.TTF);
 }
 
-/* stylelint-disable selector-list-comma-newline-after */
+/* HEADER FORMATS */
 .container-header {
   width: 100%;
 }
@@ -42,7 +33,7 @@
   text-decoration: none;
 }
 
-
+/* BODY STYLES */
 h1, h2, h3, h5, h6 {
   font-family: "newYorker", Georgia, serif;
   text-transform: uppercase;
@@ -107,37 +98,6 @@ hr {
   .display-4 {
     font-size: 3rem;
   }
-}
-
-.nav-scroller {
-  position: relative;
-  z-index: 2;
-  height: 2.75rem;
-  overflow-y: hidden;
-}
-
-.nav-scroller .nav {
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-wrap: nowrap;
-  flex-wrap: nowrap;
-  padding-bottom: 1rem;
-  margin-top: -1px;
-  overflow-x: auto;
-  text-align: center;
-  white-space: nowrap;
-  -webkit-overflow-scrolling: touch;
-}
-
-.nav-scroller .nav-link {
-  padding-top: .75rem;
-  padding-bottom: .75rem;
-  font-size: .875rem;
-}
-
-.card-img-right {
-  height: 100%;
-  border-radius: 0 3px 3px 0;
 }
 
 .flex-auto {
@@ -217,9 +177,15 @@ a.footer-link:hover {
   text-decoration: underline;
   color: #fff;
 }
-  /*
-  * Media Adjust
-  */
+
+/* DATA TABLE STYLES */
+.stripe {
+  background-color: #fff;
+}
+
+/*
+ * Media Adjust
+ */
 
 @media (max-width: 768px) {
   .article-title {
@@ -242,5 +208,5 @@ a.footer-link:hover {
   .subscribe-align {
     padding-left: 10px;
   }
-  
+
 }

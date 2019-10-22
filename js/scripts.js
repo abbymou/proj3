@@ -16,7 +16,8 @@ $(document).ready(function(){
     loadData1();
 
     $('#table').DataTable({
-      "ajax": 'json/motor.txt'
+      "ajax": 'json/motor.txt',
+      responsive: true
     });
 
 
@@ -110,7 +111,7 @@ function createCharts() {
     },
 
     color: {
-        pattern: [ '#f25f5c', '#247ba0', '#247ba0', '#70c1b3']
+        pattern: [ '#1dbab4', '#1561ad']
     }
   });
 
@@ -130,7 +131,7 @@ function createCharts() {
         onmouseout: function (d, i) { console.log("onmouseout", d, i); }
     },
     color: {
-        pattern: [ '#ffe066', '#f25f5c', '#247ba0', '#70c1b3']
+        pattern: [ '#ffe066', '#f25f5c', '#1561ad', '#1dbab4']
     }
 });
 
@@ -157,26 +158,26 @@ function createCharts() {
         dataClasses: [{
             from: 0,
             to: 4.9,
-            color: '#FFE066',
+            color: '#1dbab4',
             name: '0 - 4.9'
         }, {
             from: 5,
             to: 9.9,
-            color: '#ffc056',
+            color: '#00a7bc',
             name: '5 - 9.9'
         }, {
             from: 10,
             to: 14.9,
-            color: '#ffa051',
+            color: '#0091bf',
             name: '10 - 14.9'
         }, {
             from: 15,
             to: 19.9,
-            color: '#fe7f54',
+            color: '#007abb',
             name: '15 - 19.9'
           }, {
             from: 20,
-            color: '#F25F5C',
+            color: '#1561ad',
             name: '> 20'
           }]
     },
@@ -567,9 +568,7 @@ function createCharts() {
             },
             chartOptions: {
                 legend: {
-                    align: 'center',
-                    verticalAlign: 'bottom',
-                    layout: 'horizontal'
+                    enabled: false
                 }
             }
         }]
