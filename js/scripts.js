@@ -59,16 +59,6 @@ function parseData(data){
     male.push(data[i]["Male"]);
   }
 
-
-  /*if data[0]"table" == "table1" {
-    //parse data table
-    buildTable();
-  }
-
-  if data[0]"chart" == "charts" {
-    //parse chart data
-    buildCharts();
-  }*/
   loadData2();
 
 }

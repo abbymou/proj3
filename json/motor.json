@@ -1,6 +1,7 @@
 [
  {
    "State": "Nebraska",
+   "Abbrev": "NE",
    "All Ages": 10.3,
    "Age 0-20": 4.7,
    "Age 21-34": 16.8,
@@ -11,6 +12,7 @@
  },
  {
    "State": "Kansas",
+   "Abbrev": "KS",
    "All Ages": 10.4,
    "Age 0-20": 5.8,
    "Age 21-34": 14.6,
@@ -21,6 +23,7 @@
  },
  {
    "State": "Tennessee",
+   "Abbrev": "TN",
    "All Ages": 11.1,
    "Age 0-20": 5.4,
    "Age 21-34": 15.6,
@@ -31,6 +34,7 @@
  },
  {
    "State": "West Virginia",
+   "Abbrev": "WV",
    "All Ages": 11.1,
    "Age 0-20": 5.3,
    "Age 21-34": 17.5,
@@ -41,6 +45,7 @@
  },
  {
    "State": "Louisiana",
+   "Abbrev": "LA",
    "All Ages": 11.2,
    "Age 0-20": 5.9,
    "Age 21-34": 16.9,
@@ -51,6 +56,7 @@
  },
  {
    "State": "Kentucky",
+   "Abbrev": "KY",
    "All Ages": 11.5,
    "Age 0-20": 6.2,
    "Age 21-34": 16.3,
@@ -61,6 +67,7 @@
  },
  {
    "State": "New Mexico",
+   "Abbrev": "NM",
    "All Ages": 11.9,
    "Age 0-20": 7,
    "Age 21-34": 21.6,
@@ -71,6 +78,7 @@
  },
  {
    "State": "Arkansas",
+   "Abbrev": "AR",
    "All Ages": 12,
    "Age 0-20": 6.2,
    "Age 21-34": 15.1,
@@ -81,6 +89,7 @@
  },
  {
    "State": "South Carolina",
+   "Abbrev": "SC",
    "All Ages": 12,
    "Age 0-20": 7.6,
    "Age 21-34": 20.9,
@@ -91,6 +100,7 @@
  },
  {
    "State": "South Dakota",
+   "Abbrev": "SD",
    "All Ages": 12.5,
    "Age 0-20": null,
    "Age 21-34": 16.1,
@@ -101,6 +111,7 @@
  },
  {
    "State": "Alabama",
+   "Abbrev": "AL",
    "All Ages": 13,
    "Age 0-20": 6.9,
    "Age 21-34": 17.8,
@@ -111,6 +122,7 @@
  },
  {
    "State": "Oklahoma",
+   "Abbrev": "OK",
    "All Ages": 14.2,
    "Age 0-20": 7.9,
    "Age 21-34": 16.1,
@@ -121,6 +133,7 @@
  },
  {
    "State": "North Dakota",
+   "Abbrev": "ND",
    "All Ages": 14.6,
    "Age 0-20": null,
    "Age 21-34": 22.3,
@@ -131,6 +144,7 @@
  },
  {
    "State": "Montana",
+   "Abbrev": "MO",
    "All Ages": 14.8,
    "Age 0-20": 10.2,
    "Age 21-34": 23.7,
@@ -141,6 +155,7 @@
  },
  {
    "State": "Mississippi",
+   "Abbrev": "MS",
    "All Ages": 16.4,
    "Age 0-20": 9.2,
    "Age 21-34": 25,
@@ -151,6 +166,7 @@
  },
  {
    "State": "Rhode Island",
+   "Abbrev": "RI",
    "All Ages": 2.3,
    "Age 0-20": null,
    "Age 21-34": null,
@@ -161,6 +177,7 @@
  },
  {
    "State": "Hawaii",
+   "Abbrev": "HI",
    "All Ages": 2.6,
    "Age 0-20": null,
    "Age 21-34": null,
@@ -171,6 +188,7 @@
  },
  {
    "State": "New York",
+   "Abbrev": "NY",
    "All Ages": 2.8,
    "Age 0-20": 1.3,
    "Age 21-34": 3.9,
@@ -181,6 +199,7 @@
  },
  {
    "State": "Wyoming",
+   "Abbrev": "WY",
    "All Ages": 21,
    "Age 0-20": null,
    "Age 21-34": 37.5,
@@ -191,6 +210,7 @@
  },
  {
    "State": "Massachusetts",
+   "Abbrev": "MA",
    "All Ages": 3,
    "Age 0-20": 1.2,
    "Age 21-34": 4.4,
@@ -201,6 +221,7 @@
  },
  {
    "State": "New Jersey",
+   "Abbrev": "NJ",
    "All Ages": 3.4,
    "Age 0-20": 2.1,
    "Age 21-34": 4.5,
@@ -211,6 +232,7 @@
  },
  {
    "State": "Connecticut",
+   "Abbrev": "CT",
    "All Ages": 4,
    "Age 0-20": null,
    "Age 21-34": 7.9,
@@ -221,6 +243,7 @@
  },
  {
    "State": "California",
+   "Abbrev": "CA",
    "All Ages": 4.3,
    "Age 0-20": 2.7,
    "Age 21-34": 6.9,
@@ -231,6 +254,7 @@
  },
  {
    "State": "Washington",
+   "Abbrev": "WA",
    "All Ages": 4.3,
    "Age 0-20": 2.6,
    "Age 21-34": 6.3,
@@ -241,6 +265,7 @@
  },
  {
    "State": "Maryland",
+   "Abbrev": "MD",
    "All Ages": 4.4,
    "Age 0-20": 1.4,
    "Age 21-34": 8.9,
@@ -251,6 +276,7 @@
  },
  {
    "State": "Vermont",
+   "Abbrev": "VT",
    "All Ages": 4.5,
    "Age 0-20": null,
    "Age 21-34": null,
@@ -261,6 +287,7 @@
  },
  {
    "State": "New Hampshire",
+   "Abbrev": "NH",
    "All Ages": 4.6,
    "Age 0-20": null,
    "Age 21-34": 9.4,
@@ -271,6 +298,7 @@
  },
  {
    "State": "Illinois",
+   "Abbrev": "IL",
    "All Ages": 5,
    "Age 0-20": 2.4,
    "Age 21-34": 7.6,
@@ -281,6 +309,7 @@
  },
  {
    "State": "Minnesota",
+   "Abbrev": "MN",
    "All Ages": 5.2,
    "Age 0-20": 2.3,
    "Age 21-34": 6.5,
@@ -291,6 +320,7 @@
  },
  {
    "State": "Nevada",
+   "Abbrev": "NV",
    "All Ages": 5.3,
    "Age 0-20": 4.1,
    "Age 21-34": 7.1,
@@ -301,6 +331,7 @@
  },
  {
    "State": "Alaska",
+   "Abbrev": "AK",
    "All Ages": 5.9,
    "Age 0-20": null,
    "Age 21-34": null,
@@ -311,6 +342,7 @@
  },
  {
    "State": "Utah",
+   "Abbrev": "UT",
    "All Ages": 5.9,
    "Age 0-20": 3.5,
    "Age 21-34": 5.9,
@@ -321,6 +353,7 @@
  },
  {
    "State": "Arizona",
+   "Abbrev": "AZ",
    "All Ages": 6,
    "Age 0-20": 3.4,
    "Age 21-34": 8.4,
@@ -331,6 +364,7 @@
  },
  {
    "State": "Colorado",
+   "Abbrev": "CO",
    "All Ages": 6,
    "Age 0-20": 3.6,
    "Age 21-34": 8.7,
@@ -341,6 +375,7 @@
  },
  {
    "State": "Michigan",
+   "Abbrev": "MI",
    "All Ages": 6,
    "Age 0-20": 3.7,
    "Age 21-34": 9.4,
@@ -351,6 +386,7 @@
  },
  {
    "State": "Oregon",
+   "Abbrev": "OR",
    "All Ages": 6,
    "Age 0-20": 3.4,
    "Age 21-34": 7.5,
@@ -361,6 +397,7 @@
  },
  {
    "State": "Virginia",
+   "Abbrev": "VA",
    "All Ages": 6,
    "Age 0-20": 3,
    "Age 21-34": 8.4,
@@ -371,6 +408,7 @@
  },
  {
    "State": "Florida",
+   "Abbrev": "FL",
    "All Ages": 6.1,
    "Age 0-20": 3.1,
    "Age 21-34": 9.5,
@@ -381,6 +419,7 @@
  },
  {
    "State": "Pennsylvania",
+   "Abbrev": "PA",
    "All Ages": 6.1,
    "Age 0-20": 2.7,
    "Age 21-34": 8.7,
@@ -391,6 +430,7 @@
  },
  {
    "State": "Ohio",
+   "Abbrev": "OH",
    "All Ages": 6.5,
    "Age 0-20": 3.7,
    "Age 21-34": 10.2,
@@ -401,6 +441,7 @@
  },
  {
    "State": "Wisconsin",
+   "Abbrev": "WI",
    "All Ages": 6.5,
    "Age 0-20": 3.4,
    "Age 21-34": 10.9,
@@ -411,6 +452,7 @@
  },
  {
    "State": "United States",
+   "Abbrev": "US",
    "All Ages": 6.8,
    "Age 0-20": 3.7,
    "Age 21-34": 10.1,
@@ -421,6 +463,7 @@
  },
  {
    "State": "Iowa",
+   "Abbrev": "IA",
    "All Ages": 7.4,
    "Age 0-20": 4.5,
    "Age 21-34": 8.5,
@@ -431,6 +474,7 @@
  },
  {
    "State": "Maine",
+   "Abbrev": "ME",
    "All Ages": 7.5,
    "Age 0-20": null,
    "Age 21-34": 9.8,
@@ -441,6 +485,7 @@
  },
  {
    "State": "Indiana",
+   "Abbrev": "IN",
    "All Ages": 7.9,
    "Age 0-20": 3.1,
    "Age 21-34": 12.8,
@@ -451,6 +496,7 @@
  },
  {
    "State": "Delaware",
+   "Abbrev": "DE",
    "All Ages": 8.2,
    "Age 0-20": null,
    "Age 21-34": 16.6,
@@ -461,6 +507,7 @@
  },
  {
    "State": "Georgia",
+   "Abbrev": "GA",
    "All Ages": 8.3,
    "Age 0-20": 3.7,
    "Age 21-34": 11.1,
@@ -471,6 +518,7 @@
  },
  {
    "State": "Idaho",
+   "Abbrev": "ID",
    "All Ages": 8.6,
    "Age 0-20": 5.4,
    "Age 21-34": 11.4,
@@ -481,6 +529,7 @@
  },
  {
    "State": "North Carolina",
+   "Abbrev": "NC",
    "All Ages": 8.9,
    "Age 0-20": 5.2,
    "Age 21-34": 12.7,
@@ -491,6 +540,7 @@
  },
  {
    "State": "Missouri",
+   "Abbrev": "MO",
    "All Ages": 9.5,
    "Age 0-20": 6.2,
    "Age 21-34": 12.8,
@@ -501,6 +551,7 @@
  },
  {
    "State": "Texas",
+   "Abbrev": "TX",
    "All Ages": 9.5,
    "Age 0-20": 5.1,
    "Age 21-34": 14.7,
