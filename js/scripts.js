@@ -10,6 +10,7 @@ var male = [];
 var state2 = [];
 var female2 = [];
 var male2 = [];
+var abbrev = [];
 
 $(document).ready(function(){
   console.log("doc ready")
@@ -77,6 +78,7 @@ function parseData2(data){
     state2.push(data[j]["State"]);
     female2.push(data[j]["Female"]);
     male2.push(data[j]["Male"]);
+    abbrev.push(data[j]["Abbrev"]);
   }
 
   createCharts();
@@ -89,7 +91,7 @@ function createCharts() {
     data: {
         x: 'x',
         json: {
-          'x': state2,
+          'x': abbrev,
           Female: female2,
           Male: male2
         },

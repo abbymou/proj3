@@ -1,6 +1,7 @@
 [
   {
     "State": "Wyoming",
+    "Abbrev": "WY",
     "All Ages": 21,
     "Age 0-20": "",
     "Age 21-34": 37.5,
@@ -11,6 +12,7 @@
   },
   {
     "State": "Mississippi",
+    "Abbrev": "MS",
     "All Ages": 16.4,
     "Age 0-20": 9.2,
     "Age 21-34": 25,
@@ -21,6 +23,7 @@
   },
   {
     "State": "Montana",
+    "Abbrev": "MO",
     "All Ages": 14.8,
     "Age 0-20": 10.2,
     "Age 21-34": 23.7,
@@ -31,6 +34,7 @@
   },
   {
     "State": "North Dakota",
+    "Abbrev": "ND",
     "All Ages": 14.6,
     "Age 0-20": "",
     "Age 21-34": 22.3,
@@ -41,6 +45,7 @@
   },
   {
     "State": "Oklahoma",
+    "Abbrev": "OK",
     "All Ages": 14.2,
     "Age 0-20": 7.9,
     "Age 21-34": 16.1,
@@ -51,6 +56,7 @@
   },
   {
     "State": "Alabama",
+    "Abbrev": "AL",
     "All Ages": 13,
     "Age 0-20": 6.9,
     "Age 21-34": 17.8,
@@ -61,6 +67,7 @@
   },
   {
     "State": "South Dakota",
+    "Abbrev": "SD",
     "All Ages": 12.5,
     "Age 0-20": "",
     "Age 21-34": 16.1,
@@ -71,6 +78,7 @@
   },
   {
     "State": "Arkansas",
+    "Abbrev": "AK",
     "All Ages": 12,
     "Age 0-20": 6.2,
     "Age 21-34": 15.1,
@@ -81,6 +89,7 @@
   },
   {
     "State": "South Carolina",
+    "Abbrev": "SC",
     "All Ages": 12,
     "Age 0-20": 7.6,
     "Age 21-34": 20.9,
@@ -91,6 +100,7 @@
   },
   {
     "State": "New Mexico",
+    "Abbrev": "NM",
     "All Ages": 11.9,
     "Age 0-20": 7,
     "Age 21-34": 21.6,
